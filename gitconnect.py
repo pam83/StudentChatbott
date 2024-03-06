@@ -4,10 +4,10 @@ import requests
 app = Flask(__name__)
 
 # GitHub URL for your private JSON file
-github_url = "<your github private json url> "
+github_url = "https://raw.githubusercontent.com/pam83/StudentChatbott/main/coursera_courses.json"
 
 # GitHub Personal Access Token (replace with your actual token)
-github_token = "<your Personal Access Token>"
+github_token = "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"
 
 @app.route('/chat', methods=['POST'])
 def chat():
